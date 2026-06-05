@@ -1,1 +1,70 @@
+/*==============================================================================
+BLOQUE 15: clases de botones de navegacion
+===============================================================================*/
 
+.clas_btn_nav1{
+    border-left: 6px solid #000000;
+}
+
+.clas_btn_nav{
+    border-left: 6px solid #1b7505;
+}
+
+
+.clas_btn_nav2{
+    border-left: 6px solid #752905;
+}
+
+/*==============================================================================
+BLOQUE 16: Listas
+===============================================================================*/
+
+#intereses li{
+    background-color: #f4f6f8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+
+
+#pasos li{
+    background-color: #f4f6f8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/*==============================================================================
+BLOQUE 17: Titulos en multimedia
+===============================================================================*/
+
+#multimedia h3{
+    color: #1b7505;
+}
+
+#multimedia article{
+    border:1px solid #ddd;
+    background-color: #f4f6f8;
+}
+
+section form{
+    background-color: #fafafafa;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px dashed #a8a8a7;
+}
+
+main figure {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f4f6f8;
+}
+
+.nota{
+    background-color: #f4f6f8;
+    padding: 12px;
+    border-left: 5px solid #dba112;
+    font-size: 15px;
+}
