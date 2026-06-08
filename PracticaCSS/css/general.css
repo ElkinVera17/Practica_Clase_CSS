@@ -137,6 +137,7 @@ nav a {
     border-radius: 6px;
     font-weight: bold;
     border: 1px solid #a8a8a7;
+    
 }
 
 nav a:hover {
@@ -444,13 +445,13 @@ kbd {
     /* Selecciona el menú de navegación */
     nav {
         /* Coloca los elementos del menú uno debajo del otro */
-        flex-direction: column;
+        flex-direction: row;
     }
 
     /* Selecciona cada enlace dentro del menú */
     nav a {
         /* Hace que cada enlace ocupe todo el ancho disponible */
-        width: 100%;
+        width: calc(30% - 12px);
 
         /* Centra el texto dentro de cada enlace */
         text-align: center;
