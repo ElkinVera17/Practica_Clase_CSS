@@ -79,9 +79,3 @@
 border-left : 5px solid #0d0f0c;
 }
 
-/* Solo para móviles: cards en columna */
-@media (max-width: 700px) {
-    .cards-container {
-        flex-direction: column;
-    }
-}
